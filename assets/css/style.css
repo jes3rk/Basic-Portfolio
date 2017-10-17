@@ -1,0 +1,23 @@
+body {
+  background-color: #4aaaa5;
+  color: #777777;
+  width: 950px;
+  text-indent: 50px;
+}
+
+#Headshot {
+  width: 350px;
+}
+p {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: georgia;
+}
+
+.primary_text_box {
+  width: 650px;
+  background-color: white;
+
+}
