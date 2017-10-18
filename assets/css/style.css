@@ -40,7 +40,7 @@ h1, h2, h3 {
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 50px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .nav {
@@ -134,7 +134,7 @@ footer:hover {
 .main-content-title {
 /* Gives content for the primary heading */
   font-size: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-top: 25px;
   padding-bottom: 15px;
   color: #4eeee5;
