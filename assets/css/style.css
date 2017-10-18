@@ -109,6 +109,7 @@ footer {
   font-size: 15px;
   font-family: font-family: 'Georgia', Times, Times New Roman, serif;
   padding-top: 1%;
+  color: #ffffff;
 }
 
 .main-content {
@@ -144,6 +145,7 @@ footer {
 .about-me-desc {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
+  color: #777777;
   line-height: 150%;
   text-indent: 30px;
   padding-top: 15px;
@@ -155,7 +157,7 @@ footer {
   text-decoration: none;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
-  color: black;
+  color: #777777;
 }
 
 .about-me-desc a:hover {
@@ -236,7 +238,7 @@ footer {
   margin: 20px;
 }
 
-.contact-form {
+/*.contact-form {
   margin-top: 45px;
   width: 914px;
   padding: 20px;
@@ -245,28 +247,41 @@ footer {
   float: left;
   margin-left: auto;
   margin-right: auto;
+} */
+
+h4 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #777777;
+  margin-top: 25px;
 }
 
+
+#email-name {
+  width: 100%;
+  margin-top: 5px;
+  border: 5px solid #dddddd thin;
+  text-align: left;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0px;
+}
 #email-box {
-  width: 30%;
-  margin-left: 35%;
-  margin-right: 35%;
-  margin-top: 25px;
-  border: 5px solid #dddddd;
-  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+  border: 5px solid #dddddd thin;
+  text-align: left;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
   padding: 0px;
 }
 
 #email-content {
-  width: 46%;
+  width: 100%;
   height: 100px;
-  margin-left: 27%;
-  margin-right: 27%;
   margin-top: 5px;
-  border: 5px solid #dddddd;
-  text-align: center;
+  border: 5px solid #dddddd thin;
+  text-align: left;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
   padding: 0px;
