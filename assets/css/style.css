@@ -1,16 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
 header {
 /* The header contains all the elements of the header, but those elements are controlled seperately. */
   width: 100% auto;
   background-color: #ffffff;
-  overflow: auto;
+  overflow: visible;
   border-bottom: #cccccc solid;
   font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 }
+h1, h2, h3 {
+  font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+
 
 .header-info {
 /* This is the box that holds all the header elements centered above the body */
   width: 960px;
   margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
 }
 
 .header-info h1 {
@@ -20,30 +34,245 @@ header {
   width: auto;
   float: left;
   margin-bottom: auto;
-  margin-top: 10px;
+  margin-top: 0;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 50px;
+  letter-spacing: 2px;
 }
 
 menu {
-/* This controls the navigation buttons at the top */
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+/* Assigns the menu taps to the location I want as well as controlling the divider bars */
   width: auto;
   text-align: center;
   float: right;
-  font-size: 24px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 28px;
   margin-top: 35px;
   color: #777777;
+  display: inline;
+  letter-spacing: 2px;
+}
 
+menu a {
+/* Controllers for the menu tabs specifically */
+  color: #777777;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 24px;
 }
 
 body {
   background-image: url(../images/vintage-concrete.png);
 }
 
+.body-panel {
+/* This is only designating the size of my content body within the bigger window */
+  width: 960px;
+  margin: auto;
+}
+
+footer {
+/* Global footer settings */
+  background-color: #666666;
+  position: fixed;
+  top: 87%;
+  width: 100%;
+  height: 13%;
+  text-decoration: none;
+}
+
+.footer-content {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+.footer-content h3, a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.footer-content h4 {
+  font-size: 15px;
+  font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+  padding-top: 1%;
+}
+
 .main-content {
-  width: 640px;
+/* Primary content box for the site. Contains sizing info */
+  margin-top: 45px;
+  width: 600px;
+  padding: 20px;
+  border: #dddddd solid;
+  background-color: #ffffff;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-content-title {
+/* Gives content for the primary heading */
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: #4eeee5;
+  border-bottom: #dddddd solid;
+}
+
+#bio-image {
+/* Pictures of you, pictures of me, sitting on your wall for the world to see */
+  width: 200px;
+  margin: 10px;
+  float: left;
+  border: #dddddd solid thin;
+}
+
+.about-me-desc {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  text-indent: 30px;
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.about-me-desc a {
+/* Added a link to my other site */
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.about-me-desc a:hover {
+/* Yay animation for links */
+  text-decoration: underline;
+}
+
+.sidebar {
+  margin-top: 45px;
+  width: 250px;
+  padding: 20px;
+  border: #dddddd solid;
+  background-color: #ffffff;
+  float: right;
+  margin-right: 0px;
+}
+
+.sidebar-title {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  color: #4eeee5;
+  border-bottom: #dddddd solid;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.sm-icon {
+  width: 75px;
+}
+
+.sm-icon:hover {
+/* Shrinks the icon when hovering on it */
+  width: 65px;
+  padding: 5px;
+}
+
+.porfolio-projects {
+  width: 500px;
+}
+
+.portfolio-picture {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  margin: 25px;
+  display: block;
+}
+
+#project1, #project3 {
+  float: left;
+}
+
+#project2, #project4 {
+  float: right;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  background-color: #4eeee5;
+  color: #ffffff;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.project:hover {
+/* Adds a border around the project image and adjusts the margin accordingly so it doesn't all break */
+  border: 5px #4eeee5 solid;
+  margin: 20px;
+}
+
+.contact-form {
+  margin-top: 45px;
+  width: 960px;
+  padding: 20px;
+  border: #dddddd solid;
+  background-color: #ffffff;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#email-box {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 25px;
+  border: 5px solid #dddddd;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#email-content {
+  width: 46%;
+  height: 100px;
+  margin-left: 27%;
+  margin-right: 27%;
+  margin-top: 5px;
+  border: 5px solid #dddddd;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#email-button {
+  width: 10%;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #4eeee5;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  height: 40px;
+  margin-left: 45%;
+  margin-right: 45%;
 }
