@@ -238,7 +238,7 @@ footer {
 
 .contact-form {
   margin-top: 45px;
-  width: 960px;
+  width: 914px;
   padding: 20px;
   border: #dddddd solid;
   background-color: #ffffff;
@@ -256,6 +256,7 @@ footer {
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
+  padding: 0px;
 }
 
 #email-content {
@@ -268,6 +269,7 @@ footer {
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 20px;
+  padding: 0px;
 }
 
 #email-button {
@@ -281,4 +283,5 @@ footer {
   height: 40px;
   margin-left: 45%;
   margin-right: 45%;
+  padding: 0px;
 }
