@@ -12,6 +12,7 @@ header {
   border-bottom: #cccccc solid;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 h1, h2, h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
@@ -240,9 +241,10 @@ footer:hover {
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   width: 250px;
+/* The position: relative command allows me to overlap things */
   position: relative;
   bottom: 50px;
 }
@@ -271,6 +273,7 @@ h5 {
   font-size: 20px;
   padding: 0px;
 }
+
 #email-box {
   width: 100%;
   margin-top: 5px;
