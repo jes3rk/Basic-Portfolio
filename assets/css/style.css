@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 .header-info h1 {
 /* This is only my name */
-  background-color: #4eeee5;
+  background-color: #4aaaa5;
   color: #ffffff;
   width: auto;
   float: left;
@@ -137,7 +137,7 @@ footer:hover {
   letter-spacing: 1px;
   padding-top: 25px;
   padding-bottom: 15px;
-  color: #4eeee5;
+  color: #4aaaa5;
   border-bottom: #dddddd solid;
 }
 
@@ -188,7 +188,7 @@ footer:hover {
   padding-top: 25px;
   padding-bottom: 20px;
   margin-bottom: 15px;
-  color: #4eeee5;
+  color: #4aaaa5;
   border-bottom: #dddddd solid;
 }
 
@@ -208,18 +208,14 @@ footer:hover {
 
 .porfolio-projects {
   width: 500px;
-  padding-bottom: 50px;
-}
-
-.portfolio-picture {
-  width: 250px;
-  margin: 0;
-  padding: 0;
+ padding: 0px;
 }
 
 .project {
   margin: 25px;
-  display: block;
+  display: inline-block;
+  padding-bottom: 0px;
+  height: 188px;
 }
 
 #project1, #project3 {
@@ -230,21 +226,30 @@ footer:hover {
   float: right;
 }
 
+.portfolio-picture {
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .project-title {
   text-align: center;
   font-size: 22px;
   letter-spacing: 2px;
-  background-color: #4eeee5;
+  background-color: #4aaaa5;
   color: #ffffff;
   margin-top: 0;
+  margin-bottom: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
   width: 250px;
+  position: relative;
+  bottom: 50px;
 }
 
 .project:hover {
 /* Adds a border around the project image and adjusts the margin accordingly so it doesn't all break */
-  border: 5px #4eeee5 solid;
+  border: 5px #4aaaa5 solid;
   margin: 20px;
 }
 
@@ -293,7 +298,7 @@ h5 {
   width: 100px;
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #4eeee5;
+  background-color: #4aaaa5;
   color: #ffffff;
   font-size: 18px;
   letter-spacing: 2px;
